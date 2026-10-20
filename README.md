@@ -2,7 +2,7 @@
 
 An interactive Streamlit dashboard that estimates 1-day portfolio Value-at-Risk with six models, scores every model on the same out-of-sample days, and tests the results with Kupiec and Christoffersen backtests.
 
-![Dashboard](docs/dashboard.png)
+![Dashboard](dashboard.png)
 
 ## Key findings
 
@@ -29,7 +29,7 @@ CC = Christoffersen conditional coverage test, 5% significance level.
 3. **GARCH(1,1) and FHS differ only in the quantile.** With the GJR term off, both use the same fitted mean and the same one-step-ahead volatility. FHS takes the empirical quantile of the standardised residuals, GARCH takes the normal z-score. FHS has 105 exceptions at 95% against 130 for GARCH, and 21 at 99% against 41. The normal quantile is therefore too thin at both levels. The leverage term gave no visible benefit: the GJR-on and GJR-off counts differ by less than one standard deviation of the count at both levels.
 4. **FHS and FHS-EVT are close to one model at 99%.** They share the same filter and residuals, their breaches fall on almost the same days, and the GPD only extrapolates a short way at this level. They are not independent pieces of evidence, and any advantage of the EVT tail would show further out (99.5%+), which this sample is too short to test.
 
-![Exception timeline](docs/exception_timeline.png)
+![Exception timeline](exception_timeline.png)
 
 ### Interpretation
  
