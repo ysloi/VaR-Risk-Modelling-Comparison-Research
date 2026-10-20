@@ -1,5 +1,5 @@
 """
-Interactive VaR Risk Modeling & Backtesting Dashboard
+Interactive VaR Risk Modelling & Backtesting Dashboard
 ======================================================
 Run with:   streamlit run dashboard.py
 
