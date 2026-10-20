@@ -80,6 +80,11 @@ streamlit run dashboard.py
 
 Sidebar controls: tickers, weights, start date, confidence level (90/95/99%), rolling window, walk-forward GARCH/FHS settings, and which models to run. Price data is downloaded at run time.
 
+## Credits
+ 
+Built on top of [LukasUNCW/VaR-Risk-Modeling-Backtesting-Engine](https://github.com/LukasUNCW/VaR-Risk-Modeling-Backtesting-Engine) [check the original's licence and keep its notice if required].
+ 
+Added in this project: walk-forward GARCH(1,1), FHS and FHS-EVT models, the common-sample backtest logic, and the corresponding dashboard changes.
 
 ## References
 
