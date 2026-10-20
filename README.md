@@ -82,7 +82,7 @@ Sidebar controls: tickers, weights, start date, confidence level (90/95/99%), ro
 
 ## Credits
  
-Built on top of [LukasUNCW/VaR-Risk-Modeling-Backtesting-Engine](https://github.com/LukasUNCW/VaR-Risk-Modeling-Backtesting-Engine) [check the original's licence and keep its notice if required].
+Built on top of [LukasUNCW/VaR-Risk-Modeling-Backtesting-Engine](https://github.com/LukasUNCW/VaR-Risk-Modeling-Backtesting-Engine).
  
 Added in this project: walk-forward GARCH(1,1), FHS and FHS-EVT models, the common-sample backtest logic, and the corresponding dashboard changes.
 
