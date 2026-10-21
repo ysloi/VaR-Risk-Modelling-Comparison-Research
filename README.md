@@ -6,8 +6,8 @@ An interactive Streamlit dashboard that estimates 1-day portfolio Value-at-Risk 
 
 ## Key findings
 
-Portfolio: SPY 40% / QQQ 30% / TLT 20% / GLD 10%. Common backtest sample: ~1,965 trading days ([start date] to [end date]), identical for every model.
-Walk-forward settings: window [1000] days, refit every [20] days, FHS-EVT threshold quantile [0.90]. 
+Portfolio: SPY 40% / QQQ 30% / TLT 20% / GLD 10%. Common backtest sample: ~1,965 trading days (24/12/2018 to 21/10/2026 or your current run date), identical for every model.
+Walk-forward settings: window 1000 days, refit every 20 days, FHS-EVT threshold quantile 0.90. 
 
 FHS and FHS-EVT are shown with the GJR leverage term off and on. The GJR-off setting was preferred only after seeing the test results, so both are reported.
 
