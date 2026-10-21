@@ -1,7 +1,12 @@
 import pandas as pd
 import yfinance as yf
+from typing import Optional
 
-def get_prices(tickers: list[str], start: str = "2015-01-01", end: str | None = None) -> pd.DataFrame:
+def get_prices(
+    tickers: list[str],
+    start: str = "2015-01-01",
+    end: Optional[str] = None,
+) -> pd.DataFrame:
     """
     downloads adjusted historical price data for one or more tickers (single asset vs port)
 
