@@ -63,9 +63,9 @@ Backtests: Kupiec proportion-of-failures (unconditional coverage), Christofferse
 
 - One portfolio of four ETFs and one sample period of ~1,965 days. At 99% only ~20 exceptions are expected, so the tests have limited power, and with six models, two levels and three tests, some passes and fails will occur by chance.
 - The Christoffersen test checks first-order dependence only.
-- VaR is backtested at 95% and 99% only. [Expected shortfall is implemented in the model functions but is not backtested in the dashboard.]
+- VaR is backtested at 95% and 99% only. (Expected shortfall is implemented in the model functions but is not backtested in the dashboard.)
 - The GJR-off setting was preferred after seeing the test results. Both settings are reported for that reason.
-- Results depend on the GPD threshold quantile, the fit window and the refit frequency; sensitivity to these has [not yet / been] tested.
+- Results depend on the GPD threshold quantile, the fit window and the refit frequency; sensitivity to these has not yet been tested.
 - Price data is downloaded at run time, so results shift slightly as new days are added.
 - 1-day horizon only. Multi-day VaR would need path simulation, not square-root-of-time scaling.
 
