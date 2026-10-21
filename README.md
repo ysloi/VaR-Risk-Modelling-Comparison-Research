@@ -72,7 +72,7 @@ Backtests: Kupiec proportion-of-failures (unconditional coverage), Christofferse
 ## Run it
 
 ```bash
-git clone https://github.com/ysloi/VaR-Risk-Modelling-Comparison-Research/tree/main
+git clone https://github.com/ysloi/VaR-Risk-Modelling-Comparison-Research.git
 cd VaR-Risk-Modelling-Comparison-Research
 pip install -r requirements.txt
 streamlit run dashboard.py
